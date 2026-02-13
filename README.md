@@ -23,14 +23,8 @@ pytest -v
 
 ---
 
-## For the Sub
 
-Students should:
-1. Start with task1.py - run it, see the error, fix it, run again
-2. Move to task2.py - run it, enter values, see the error, fix it, repeat
-3. When task2 is working, comment out `main()` at the bottom
-4. Run `pytest -v` to verify all fixes
 
-**Hints if students are stuck:**
+**Hints if you are stuck:**
 - Task 1: Look for typos in variable names, missing pieces in f-strings
 - Task 2: Remember `input()` always returns a string - use `int()` or `float()` to convert
